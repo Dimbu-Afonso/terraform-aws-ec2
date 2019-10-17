@@ -17,3 +17,12 @@ variable "name" {
   description = "name to pass to Name tag"
   default = "Hashicorp demo"
 }
+
+variable "aws_access_key" {
+    default = ""
+}
+
+variable "aws_secret_key" {
+    default = ""
+}
+
